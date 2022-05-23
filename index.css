@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Baskerville:ital@1&family=Zen+Loop&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: 'Koulen', cursive;
+}
+
+.navigation{
+	background: #f8c154;
+}
+
+.navbar{
+	font-size:  14px;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	padding: 20px 0;
+}
+
+.navigation .navbar-nav .nav-link{
+	padding-left: 20px;
+}
+
+/*Hover effect*/
+.navigation .navbar-nav .nav-link.active,
+.navigation .navbar-nav .nav-link:hover{
+	color: #66ccff;
+}
+
+.background{
+	padding-top: 5rem;
+}
+
+.rounded-circle{
+	height: 400px;
+	padding-bottom: 2rem;
+	padding-top: 3rem;
+}
+
+.text-center{
+	color: black;
+	/*background-color:  #f8c154;*/
+}
+
+.heading-content{
+	color: #775b08;
+}
