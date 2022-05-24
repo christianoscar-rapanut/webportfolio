@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Bootstrap Link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+	<!-- CSS Link -->
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+	<title>Bootstrap Grid System</title>
+</head>
+<body class="text-center">
+	<h1>Bootstrap Grid System</h1>
+
+	<!-- Two Columns Start -->
+	<h2>Two columns</h2>
+	<div class="container-fluid">
+		
+		<!-- Row with 2 equal columns -->
+		<h3>1:1 Ratio</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-6">6 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-6">6 Col</div>
+		</div>
+
+		<!-- Row with 2 columns divided in 1:2 ratio -->
+		<h3>1:2 Ratio</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-8">8 Col</div>
+		</div>
+
+		<!-- Row with two columns divided in 1:3 Ratio -->
+		<h3>1:3 Ratio</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-9">9 Col</div>
+		</div>
+	</div>
+
+<!-- 3 Columns -->
+<h3>Three Columns</h3>
+
+<!-- Row with 3 equal columns -->
+<h3>1:1:1 Ratio</h3>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+	</div>
+
+<!-- Row with 3 columns divided in 1:2:1 ratio -->
+<h3>1:2:1 Ratio</h3>
+<div class="text-light row">
+	<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+	<div class="bg-primary pt-3 pb-3 border border-dark col-6">6 Col</div>
+	<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+</div>
+
+<!-- Row with 3 columns divided in an uneven -->
+<h3>Uneven Ratio</h3>
+<div class="text-light row">
+	<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+	<div class="bg-primary pt-3 pb-3 border border-dark col-7">7 Col</div>
+	<div class="bg-primary pt-3 pb-3 border border-dark col-2">2 Col</div>
+</div>
+</div>
+
+<!-- Automatic Sizing -->
+<h3>Automatic Sizing</h3>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+	</div>
+</div>
+
+<!-- Mobile Responsive Columns -->
+<h2>Mobile Responsive Columns</h2>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col-sm-6 col-md-4 col-lg-6">1</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-sm-6 col-md-8 col-lg-6">2</div>
+	</div>
+</div>
+
+<!-- Multi column layouts -->
+<h2>Multi column layouts</h2>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 1</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 2</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 3</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 4</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 5</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 6</div>
+	</div>
+</div>
+
+<!-- Offsetting Columns -->
+<h2>Offsetting Columns</h2>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark offset-2 col-6">1</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark offset-md-3 col-6">2</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark offset-lg-4 col-6">3</div>
+	</div>
+</div>
+
+<!-- Column Orders -->
+<h2>Column Orders</h2>
+<div class="container-fluid">
+	<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col-6 order-2 order-md-1">Left Column</div>
+		<div class="bg-primary pt-3 pb-3 border border-dark col-6 order-1 order-md-2">Right Column</div>
+	</div>
+</div>
+
+<!-- JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>
